@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!--Always delclare doctype at the top - it's a safety net-->
+<!--All of your code will go in between the opening and closing html tags-->
+<html>
+    <head>
+        <!--The head tags group together all of the information for the file-->
+        <!--This is the name on the tab of my website-->
+        <title>Chad's Favorite Restaurants</title>
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="stylesheet" href="../styles/layoutstyles.css">
+        
+    </head>
+
+    <body>
+        <span class="FaveColor">
+
+        <div class="common header">    
+            <!--The body is the meat of the page - where the text, images, and links lie-->
+            <a href="../index.html">Home Page</a> | <a href="#">Favorite Restaurants</a> | <a href="recipe.html">Recipes</a>
+            <h1 id="top" class="FaveColor">Chad Loves Good Food!</h1>  
+            <!--br = line break-->
+        </div>
+            <!--the href #__ in these a tags are referring to the IDs below for a certain area (look at our lists)-->
+            <a href="#ST">Station 22</a> |  <a href="#RC">Raising Cane's</a> |  <a href="#M">Magelby's</a>
+        
+        <br>
+        <br>
+
+        <!--src tells us where the image is coming from (file or url), width = size, alt = what users would see if the image link breaks,
+        title will show the little white box if you were to hover over the image-->
+        <div class="common rightmenu">
+            <p>This right menu</p>
+            <br>
+        </div>
+        <div class="common leftmenu">
+            <p class="FaveColor box1 box2 box3">Below you will find my favorite places to eat</p>
+            <p class="FaveColor">This is a test</p>
+            <p class="box3">I like trying new places in the Provo area</p>
+            <p>The following are my top recommendations</p>
+        </div>
+        </span>
+        <!--ol = ordered list. List items will be numbered-->
+        <div class="common mainbody">
+           <!-- <img class="box4" src="../imgs/oranges.jpeg" width="300px" alt="Oranges yummy!" title="Caroline's fave fruit">-->
+
+            <ol>
+                <!--Giving something an ID is like giving it a name that we can "call" on later-->
+                <!--Anytime you have an ol/ul you need to then use li (list items) to list out the items in the ordered list (ol) or unordered list (ul)-->
+                <li id="ST">Station 22</li>
+                <img width=100px src= "https://popmenucloud.com/cdn-cgi/image/width%3D3840%2Cheight%3D3840%2Cfit%3Dscale-down%2Cformat%3Dauto%2Cquality%3D60/nzhtsfvj/e09290c1-336c-4774-a950-4cb45a44e6fc.jpg" width=100px>
+
+                    <ul>
+                        <li>Chicken & Waffles</li>
+                        <li>Dumplings</li>
+                        <!--a tag is a link. target _blank opens a new tab for each link-->
+                        <li><a href="https://www.station22cafe.com/" target="_blank">Menu</a></li>
+                    </ul>
+                <br>
+                <li id="RC">Raising Cane's</li>
+                <img src = "https://www.raisingcanes.com/static/4616a41e9849a911d43dd8481628337a/25fb7/YWM1ZjIzMzItMmVkOS00NDQyLTkwOWUtMzJlYzZkNzAzNWIy_box-combo_website_484x424_0.webp" width=100px>
+                    <ul>
+                        <li>Chicken</li>
+                        <li>More Chicken</li>
+                        <li><a href="https://www.raisingcanes.com/our-menu">Menu</a></li>
+                    </ul>
+                <br>
+                <li id="G">Magelby's</li>
+                <img src="https://1dx12y1t17rt326pda1bn8ao-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/20oz-bone-in-prime-grade-steak-1-236x236.jpg" width="100px">
+                    <ul>
+                        <li>Filet Mignon</li>
+                        <li>Gourmet Shrimp</li>
+                        <li><a href="https://www.maglebys.com/menus/">Menu</a></li>
+                    </ul>
+
+            </ol>
+        </div>
+        <div class="common footer">
+        <a href="#top">Click here to jump to top of page</a>
+        </div>
+      
+    </body>
+
+</html>
